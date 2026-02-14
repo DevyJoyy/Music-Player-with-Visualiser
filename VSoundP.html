@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="VSoundP_style.css">
+  <title>Visualizer Sound Player</title>
+</head>
+<body>
+  <div id="FalseBg">
+    
+    <div id="MusicFileLoader">
+      <input id="fileBtn" type="file" accept="audio/*">
+      <button id="lock-screen" class="btns">
+        lock
+      </button>
+    </div>
+    
+    <div id="wallpaperContainer">
+      <img src="images/Joyy.png" alt="wallpaper image">
+    </div>
+    
+    <div id="Visualizer">
+      <canvas id="canvas1"></canvas>
+    </div>
+    
+    <div id="music_control">
+      <audio id="audiotrack" controls></audio>
+    </div>
+  </div>
+  <script src="VSoundP_funct.js"></script>
+</body>
+</html>
